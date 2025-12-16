@@ -1,6 +1,8 @@
 # UCOPhyRehab++
 ---
 
+![UCOPhyRehab++ sample image](img/modalities_sample.png)
+
 This repository contains the code used to train and evaluate models for **3D angle prediction** on the **UCOPhyRehab++** dataset.  
 The goal is to allow other researchers to **reproduce the experiments** reported in the paper, including:
 
