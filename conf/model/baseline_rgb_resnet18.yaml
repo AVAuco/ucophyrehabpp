@@ -1,0 +1,4 @@
+
+name: "BaselineRGBModel"
+backbone: "resnet18"
+hidden_dim: 256

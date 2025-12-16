@@ -1,0 +1,23 @@
+dataset_root: ""     # Path to the dataset root folder
+dataset_loader: "" # SilsFolderDataset | RGBFolderDataset
+splits: ['train', 'val', 'test'] # The names must match those in the JSON
+split_normalizer: "train"  # split used to calculate the normalization ("train" recommended)
+
+metadata_json: /.../dataset_3d_with_angles.json # Path to the dataset_3d_with_angles.json file
+modality: ""                              # sils | sils_cropped | rgb | of_gmflow | of_tvl1 | semantic_segmentation
+file_ext: "png"
+frame_zfill: 4                           # number of digits for the frames (p.ej., 0123.jpg -> 4)
+image_size: [224, 224]
+T: 32
+channels: 1 # Number of channels (RGB=3, Sils=1)
+stride: 8
+
+# Optional filters (to limit subjects, exercises or cameras building the manifest):
+include_subjects: []    # ej.: ["01","02"] (empty = all in) # Warning: If this is active, the split partition will be ignored
+include_exercises: []   # ej.: ["03","04"] (empty = all in)
+include_cameras: []     # ej.: ["cam0","cam1", ...]
+subject_to_folder:
+  type: "identity"   # "identity" | "prefix_0" | "custom"
+
+normalization: # Aplied normalization during the build_manifest stage
+  function: "zscore"   

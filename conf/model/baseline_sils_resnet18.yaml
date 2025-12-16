@@ -1,0 +1,4 @@
+
+name: "BaselineSilsModel"
+backbone: "resnet18"
+hidden_dim: 256

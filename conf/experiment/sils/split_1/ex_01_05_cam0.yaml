@@ -1,0 +1,16 @@
+#@package _global_
+
+# This file overrides the base experiment configuration for a specific run.
+
+project:
+  name: ucophyrehapp_sample
+  run_name: sils_split1_01_05_cam0
+
+data:
+  modality: "sils" # "sils" | "sils_cropped" | "of_gmflow" | "of_tvl1" | "semantic_segmentation"
+  channels: "1" # Number of channels (RGB=3, Sils=1)
+  dataset_loader: "SilsFolderDataset"  
+  split_path: "data/splits/split_1_80_10_10.json"
+  split_name: "split_1"
+  include_exercises: ['01', '05'] # From 01 to 16
+  include_cameras: ["cam0"]   # e.g., ['cam0', 'cam1', ...] or [] for all cameras

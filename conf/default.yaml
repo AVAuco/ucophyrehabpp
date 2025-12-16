@@ -1,0 +1,33 @@
+# config/default.yaml
+
+defaults:
+  - data: ucophyrehab_base
+  - model: baseline_rgb_resnet18
+  - training: base
+  - loss: mse
+  
+  - _self_
+
+  - experiment: base
+
+project:
+  name: "ucophyrehab_base"
+  run_name: "base_run"
+
+validation:
+  enabled: true
+  every_n_epochs: 10
+
+metrics: ["mae", "rmse"] # Output metrics for train, validation and test
+
+test:
+  checkpoint_epoch: 30 # n || None to use the last epoch of training
+  batch_size: 8
+  num_workers: 4
+  device: "cuda"      # "cuda" | "cpu"
+
+logging:
+  runs_dir: "runs"
+  print_every: 50
+
+  tensorboard_log: True
