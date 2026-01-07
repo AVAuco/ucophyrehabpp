@@ -1,9 +1,7 @@
 # UCOPhyRehab++
 ---
 
-[ ![Static Badge](https://img.shields.io/badge/Zenodo-Dataset%20Download-blue) ](https://zenodo.org/records/17935737)
-
-
+[ ![Zenodo DOI Badge](https://img.shields.io/badge/DOI-10.5281/zenodo.17935737-blue) ](https://doi.org/10.5281/zenodo.17935737)
 
 ![UCOPhyRehab++ sample image](img/modalities_sample.png)
 
