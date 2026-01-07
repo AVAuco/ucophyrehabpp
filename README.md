@@ -1,6 +1,10 @@
 # UCOPhyRehab++
 ---
 
+[ ![Static Badge](https://img.shields.io/badge/Zenodo-Dataset%20Download-blue) ](https://zenodo.org/records/17935737)
+
+
+
 ![UCOPhyRehab++ sample image](img/modalities_sample.png)
 
 This repository contains the code used to train and evaluate models for **3D angle prediction** on the **UCOPhyRehab++** dataset.  
