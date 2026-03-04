@@ -16,7 +16,7 @@ The goal is to allow other researchers to **reproduce the experiments** reported
   - (Optionally) RGB / other modalities
 - Evaluating performance using **Mean Absolute Error (MAE)** in degrees with a **4-fold cross-validation** scheme.
 
-This project uses [Hydra](https://hydra.cc/) as a baseline. The configuration files used in the paper are provided as an example. You can override every label from the default files in your `exoeriment` folder.
+This project uses [Hydra](https://hydra.cc/) as a baseline. The configuration files used in the paper are provided as an example. You can override every label from the default files in your `experiment` folder.
 
 ---
 
@@ -59,8 +59,8 @@ This project uses [Hydra](https://hydra.cc/) as a baseline. The configuration fi
 ## 2. Instalation
 ### 2.1. Clone the repository
 ```
-git clone https://github.com/i62agorr/uncophyrehab_validation_models.git
-cd ucophyrehab_validation_models
+git clone https://github.com/AVAuco/ucophyrehabpp.git
+cd ucophyrehabpp
 ```
 ### 2.2. Create the environment
 **OPTION A - Conda (recommended)**
