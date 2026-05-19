@@ -1,7 +1,7 @@
 # UCOPhyRehab++
 ---
 
-[ ![Zenodo DOI Badge](https://img.shields.io/badge/DOI-10.5281/zenodo.17935737-blue) ](https://doi.org/10.5281/zenodo.17935737)
+[ ![Zenodo DOI Badge](https://img.shields.io/badge/DOI-10.5281/zenodo.17935737-blue) ](https://doi.org/10.5281/zenodo.17935737) ![](https://img.shields.io/badge/Sci%20Data-10.1038%2Fs41597--026--07362--5-blue?style=flat-square&logo=doi&logoColor=%23fff&link=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41597-026-07362-5)
 
 ![UCOPhyRehab++ sample image](img/modalities_sample.png)
 
@@ -124,7 +124,24 @@ python -m src.cli.test experiment=sils/split_1/ex_01_05_cam0
 ## 5. Logs and output
 You can find the logs of your experiments in the `output` folder.
 
+# Dataset download
+You can download the dataset from Zenodo: ![](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17935736-blue?style=flat-square&logo=doi&logoColor=%23fff&link=https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.17935736)
+
 # Citation
 ```
-Comming soon
+@article{AguilarOrtega2026,
+  author    = {Aguilar-Ortega, Rafael and Zafra-Palma, Jorge and Mu{\~n}oz-Salinas, Rafael and Marin-Jimenez, Manuel J.},
+  title     = {UCOPhyRehab++: A multi-modal and multi-view dataset for human rehabilitation analysis},
+  journal   = {Scientific Data},
+  year      = {2026},
+  month     = {may},
+  day       = {7},
+  volume    = {},
+  number    = {},
+  pages     = {},
+  issn      = {2052-4463},
+  doi       = {10.1038/s41597-026-07362-5},
+  url       = {https://doi.org/10.1038/s41597-026-07362-5},
+  abstract  = {The rehabilitation of patients with musculoskeletal disorders is usually associated with the performance of prescribed exercises at home. Performing these exercises without medical supervision may lead to incorrect execution, resulting in secondary injuries or slower recovery rates for these patients. For this reason, research into assisted rehabilitation methodologies for patients of this type has been one of the most studied fields in recent years. The use of computer vision techniques has rapidly increased in recent literature. However, there is a significant lack of available data for training machine learning models or for testing these systems. In this paper, we extend our previous work, UCOPhyRehab (University of COrdoba Physical Rehabilitation), by adding multiple modalities to the original data, incorporating demographic metadata, and including performance scores assigned by an expert physical therapist. Our validation experiments demonstrate that this new release complements the original UCOPhyRehab data and enables new research directions, such as multi-modal fusion (e.g., combining silhouettes, optical flow, and semantic segmentation) and multi-view fusion across the five camera viewpoints, to improve the robustness and accuracy of rehabilitation-assistance methods.}
+}
 ```
