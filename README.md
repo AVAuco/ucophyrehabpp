@@ -1,7 +1,7 @@
 # UCOPhyRehab++
 ---
 
-[ ![Zenodo DOI Badge](https://img.shields.io/badge/DOI-10.5281/zenodo.17935737-blue) ](https://doi.org/10.5281/zenodo.17935737) [ ![Paper DOI Badge]([https://img.shields.io/badge/DOI-10.5281/zenodo.17935737-blue](https://img.shields.io/badge/Sci%20Data-10.1038%2Fs41597--026--07362--5-blue?style=flat-square&logo=doi&logoColor=%23fff&link=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41597-026-07362-5)) ]()
+[ ![Zenodo DOI Badge](https://img.shields.io/badge/DOI-10.5281/zenodo.17935737-blue) ](https://doi.org/10.5281/zenodo.17935737) [ ![Paper DOI Badge](https://img.shields.io/badge/Sci%20Data-10.1038%2Fs41597--026--07362--5-blue?style=flat-square&logo=zenodo&logoColor=%23fff&link=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41597-026-07362-5) ](https://doi.org/10.1038/s41597-026-07362-5)
 
 ![UCOPhyRehab++ sample image](img/modalities_sample.png)
 
